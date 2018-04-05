@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fellowship Baptist Church Creedmoor</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        .full-height {
+            min-height: 100vh;
+            padding-top: 35vh;
+        }
+        .hyphenate {
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            hyphens: auto;
+        }
+        h1, h2, h3, h4, h5, h6, p {
+            font-family: Serif;
+            font-weight: 800;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body id="app" class="text-white hyphenate" style="background: steelblue">
+<header class="py-5 container">
+    <h1 style="font-size: 8vw;">Welcome <span class="text-dark">to</span> Fellowship.</h1>
+</header>
+<div class="nav bg-light">
+    <div class="container">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="join-us-tab" data-toggle="tab" href="#join-us" role="tab" aria-controls="profile" aria-selected="false">Join Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="tab-content bg-white text-dark" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>We're Growing!</h2>
+                </div>
+                <div class="col-md-4">
+                    <h3>More Info</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="join-us" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Join Us!</h2>
+                </div>
+                <div class="col-md-4">
+                    <h3>Service Times</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Contact Us!</h2>
+                </div>
+                <div class="col-md-4">
+                    <h3>More Info</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">Footer 1</div>
+            <div class="col">Footer 2</div>
+            <div class="col">Footer 3</div>
+        </div>
+    </div>
+</footer>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script>
+    $('#myTab a').on('click', function (e) {e.preventDefault()$(this).tab('show')})
+</script>
+</body>
+</html>

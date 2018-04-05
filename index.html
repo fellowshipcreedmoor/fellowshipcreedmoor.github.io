@@ -6,8 +6,92 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fellowship Baptist Church Creedmoor</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+        .full-height {
+            min-height: 100vh;
+            padding-top: 35vh;
+        }
+        .hyphenate {
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            hyphens: auto;
+        }
+        h1, h2, h3, h4, h5, h6, p {
+            font-family: Serif;
+            font-weight: 800;
+            margin-top: 1.5rem;
+        }
+    </style>
 </head>
-<body>
-
+<body id="app" class="text-white hyphenate" style="background: steelblue">
+<header class="py-5 container">
+    <h1 style="font-size: 8vw;">Welcome <span class="text-dark">to</span> Fellowship.</h1>
+</header>
+<div role="main">
+    <div class="bg-white text-dark py-4">
+        <div class="container"><h2>Come Grow with Us</h2></div>
+    </div>
+    <div class="py-4">
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="row justify-content-center">
+                <div class="col col-md-6">
+                    <div class="embed-responsive">
+                        <div class="fb-page embed-responsive-item" data-href="https://www.facebook.com/fellowshipcreedmoor/" data-tabs="timeline, events" data-width="480" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/fellowshipcreedmoor/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/fellowshipcreedmoor/">Fellowship Baptist Church of Creedmoor</a></blockquote></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white text-dark py-4">
+        <div class="container">
+            <h2>Recent Sermons</h2>
+            <div class="row justify-content-center">
+                <div class="col col-md-6">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        ​<iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PL6mYRWg9nPrZw9dR_WN45KTcDRyGyr6b3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                <h3>Contact Information</h3>
+            </div>
+            <div class="col">
+                <h3>Weekly Schedule</h3>
+            </div>
+            <div class="col">
+                <h3>Affiliation</h3>
+                <h3>Legal</h3>
+                <ul class="list-unstyled">
+                    <li><a href="/privacy-policy.txt">Privacy Policy</a></li>
+                    <li><a href="/terms-and-conditions.txt">Terms and Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script>
+    $('#myTab a').on('click', function (e) {e.preventDefault()$(this).tab('show')})
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=1745794278848572&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
