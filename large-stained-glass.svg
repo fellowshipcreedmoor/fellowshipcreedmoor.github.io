@@ -1,0 +1,17 @@
+
+<svg width="380" height="280" class="m-4" style="" xmlns="http://www.w3.org/2000/svg">
+    <!-- smaller flanking windows -->
+    <path d="M5 275 l0 -130 a90 90, 0, 0, 1, 30 -60 a90 90, 0, 0, 1, 30 60 l0 130 Z" fill="rgba(127,0,127,0.5)" stroke="GhostWhite" stroke-width="12"/>
+    <path d="M315 275 l0 -130 a90 90, 0, 0, 1, 30 -60 a90 90, 0, 0, 1, 30 60 l0 130 Z" fill="rgba(0,0,255,0.5)" stroke="GhostWhite" stroke-width="12"/>
+    <!-- large center window -->
+    <path d="M70 275 l0 -150 a195 195, 0, 0, 1, 120 -120 a195 195, 0, 0, 1, 120 120 l0 150 Z" fill="rgba(255,255,0,0.5)" stroke="GhostWhite" stroke-width="12"/>
+    <!-- inner windows -->
+    <path d="M70 275 l0 -150 a190 190, 0, 0, 1, 90 -107 a190 190, 0, 0, 1, 90 107 l0 150 Z" fill="rgba(0,0,255,0.5)" stroke="GhostWhite" stroke-width="12"/>
+    <path d="M130 275 l0 -150 a190 190, 0, 0, 1, 90 -107 a190 190, 0, 0, 1, 90 107 l0 150 Z" fill="rgba(0,255,0,0.5)" stroke="GhostWhite" stroke-width="12"/>
+    <path d="M70 275 l0 -150 a190 190, 0, 0, 1, 90 -107 a190 190, 0, 0, 1, 90 107 l0 150 Z" fill="none" stroke="GhostWhite" stroke-width="12"/>
+    <!-- inner flanking windows -->
+    <path d="M70 275 l0 -150 a90 200, 0, 0, 1, 30 -55 a90 200, 0, 0, 1, 30 55 l0 150 Z" fill="rgba(255,0,0,0.5)" stroke="GhostWhite" stroke-width="12"/>
+    <path d="M250 275 l0 -150 a90 200, 0, 0, 1, 30 -55 a90 200, 0, 0, 1, 30 55 l0 150 Z" fill="rgba(255,0,255,0.5)" stroke="GhostWhite" stroke-width="12"/>
+    <!-- bottom line -->
+    <path d="M5 225 l365 0" stroke="GhostWhite" stroke-width="12"/>
+</svg>
