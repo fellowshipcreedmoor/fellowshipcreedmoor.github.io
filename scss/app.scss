@@ -1,0 +1,69 @@
+
+$color-rose: #C51162;
+
+$theme-colors: (
+  danger: $color-rose
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 100;
+}
+.full-height {
+  min-height: 100vh;
+  padding-top: 35vh;
+}
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Alegreya',serif;
+  font-weight: 100;
+  font-size-adjust: larger;
+  padding-top: 1.5rem;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.25);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+hr {
+  border: none;
+  text-align: center;
+}
+.blockquote {
+  font-family: Serif;
+}
+body > header, body > footer {
+  background: #fbeee6;
+  margin: 0;
+}
+.fc-logo{
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 200%;
+  line-height: 1em;
+  position: relative;
+  padding-bottom: 1rem;
+  display:inline-block;
+}
+.logo-heart {
+  font-size: 175%;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0px 0px 7px white, 0px 0px 15px rgba(0,0,0,0.25);
+  color: $color-rose;
+}
+.logo-cross {
+  margin:0;
+  padding: 0;
+  margin-top: -0.925em;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.85);
+}

@@ -13,49 +13,35 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="/css/bootstrap.min.css"><link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
     <style>
-        html, body {
-            margin: 0px;
-            padding: 0px;
-            font-weight: 100;
-        }
-        .full-height {
-            min-height: 100vh;
-            padding-top: 35vh;
-        }
-        .hyphenate {
-            overflow-wrap: break-word;
-            word-wrap: break-word;
-            -webkit-hyphens: auto;
-            -ms-hyphens: auto;
-            -moz-hyphens: auto;
-            hyphens: auto;
-        }
-        h1, h2, h3, h4, h5, h6{
-            font-family: 'Alegreya',serif;
-            font-weight: 800;
-            font-size-adjust: larger;
-            margin-top: 1.5rem;
-        }
-        hr {
-            border: none;
-            text-align: center;
-        }
-        .blockquote {
-            font-family: Serif;
-        }
     </style>
 </head>
 <body id="app" class="hyphenate">
-<header class="container text-center">
-    <h1 class="display-4"><small>Welcome <span class="text-dark">to</span></small> <span class="text-danger">Fellowship</span></h1>
-    <!-- <img src="android-chrome-192x192.png" alt="" class="img-fluid pt-4"> -->
-    <div style="font-family: 'Times New Roman'; font-size: 600%; line-height: 1em">
-        <div style="font-size: 175%; margin: 0; padding: 0; text-shadow: 0px 0px 15px #777;" class="text-danger">&hearts;</div>
-        <div style="margin:0; padding: 0; margin-top: -0.925em; color: white; text-shadow: 0px 0px 15px #fff;">&#10013;</div>
+<svg width="800" height="450" class="m-4" style="border: solid 1px #f7f7f7;" xmlns="http://www.w3.org/2000/svg">
+    <!-- smaller flanking windows -->
+    <path d="M5 445 l0 -130 a90 90, 0, 0, 1, 30 -60 a90 90, 0, 0, 1, 30 60 l0 130 Z" fill="rgba(255,0,255,0.5)" stroke="black"></path>
+    <path d="M315 445 l0 -130 a90 90, 0, 0, 1, 30 -60 a90 90, 0, 0, 1, 30 60 l0 130 Z" fill="rgba(0,0,255,0.5)" stroke="black"></path>
+    <!-- large center window -->
+    <path d="M70 445 l0 -150 a195 195, 0, 0, 1, 120 -120 a195 195, 0, 0, 1, 120 120 l0 150 Z" fill="rgba(255,255,0,0.5)" stroke="black"></path>
+    <!-- inner windows -->
+    <path d="M70 445 l0 -150 a190 190, 0, 0, 1, 90 -107 a190 190, 0, 0, 1, 90 107 l0 150 Z" fill="rgba(0,0,255,0.5)" stroke="black"></path>
+    <path d="M130 445 l0 -150 a190 190, 0, 0, 1, 90 -107 a190 190, 0, 0, 1, 90 107 l0 150 Z" fill="rgba(0,255,0,0.5)" stroke="black"></path>
+    <!-- inner flanking windows -->
+    <path d="M70 445 l0 -150 a90 200, 0, 0, 1, 30 -55 a90 200, 0, 0, 1, 30 55 l0 150 Z" fill="rgba(255,0,0,0.5)" stroke="black"></path>
+    <path d="M250 445 l0 -150 a90 200, 0, 0, 1, 30 -55 a90 200, 0, 0, 1, 30 55 l0 150 Z" fill="rgba(255,0,255,0.5)" stroke="black"></path>
+</svg>
+<header class="text-center">
+    <div class="container py-4">
+        <h1 class="display-4"><small>Welcome <span class="text-dark">to</span></small> <span class="text-danger">Fellowship</span></h1>
+        <!-- <img src="android-chrome-192x192.png" alt="" class="img-fluid pt-4"> -->
+        <div class="fc-logo" style="font-size: 600%;">
+            <div class="logo-heart">&hearts;</div>
+            <div class="logo-cross">&#10013;</div>
+        </div>
+        <h6>Fellowship Baptist Creedmoor: <span class="font-italic">A <span class="text-danger">Heart</span> for Our Community</span></h6>
     </div>
-    <h4 class="font-italic">A <span class="text-danger">Heart</span> for Our Community</h4>
 </header>
 <hr>
 <div role="main">
@@ -111,10 +97,35 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-md-4">
-                <h3>Contact Information</h3>
-                <address>1512 Beaver Dam Rd., Creedmoor, NC</address>
-                <p>(919)528-4176 </p>
-                <p>fellowshipcreedmoor@gmail.com</p>
+                <ul class="list-unstyled">
+                    <li><h3>Staff</h3>
+                        <dl>
+                            <dt>Pastor</dt>
+                            <dd>Buddy Ritter</dd>
+                            <dt>Secretary</dt>
+                            <dd>Rhonda Schwarze</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <h3>Address</h3>
+                        <address>1512 Beaver Dam Rd., Creedmoor, NC</address>
+                    </li>
+                    <li>
+                        <h3>Contact Us</h3>
+                        <dl>
+                            <dt>Phone</dt>
+                            <dd>(919)528-4176 </dd>
+                            <dt>Email</dt>
+                            <dd>fellowshipcreedmoor@gmail.com</dd>
+                            <dt>Facebook</dt>
+                            <dd><a href="https://fb.com/fellowshipcreedmoor">@FellowshipCreedmoor</a></dd>
+                        </dl>
+                    </li>
+                    </li>
+                </ul>
+
+
+
             </div>
             <div class="col-md-4">
                 <h3>Weekly Schedule</h3>
@@ -143,6 +154,12 @@
             </div>
         </div>
     </div>
+<div class="fc-logo">
+        <div style="font-size: 175%; margin: 0; padding: 0; text-shadow: 0px 0px 15px rgba(0,0,0,0.25); position: relative;" class="text-danger">&hearts;</div>
+        <div style="margin:0; padding: 0; margin-top: -0.925em; color: rgba(255, 255, 255, 0.95); text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.85); position: relative;">&#10013;</div>
+</div>
+    <h6 style="display: inline-block;">Fellowship Baptist Creedmoor: <span class="font-italic">A <span class="text-danger">Heart</span> for Our Community</span></h6>
+</div>
 </footer>
 <script src="/js/jquery-3.3.1.min.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
